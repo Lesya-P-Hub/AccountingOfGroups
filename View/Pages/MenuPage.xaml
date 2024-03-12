@@ -1,0 +1,45 @@
+﻿<Page x:Class="PetrovaControl8.View.Pages.MenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PetrovaControl8.View.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="198"
+      Title="MenuPage" Background="Purple">
+
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Button Name="GroupBtn"
+                    Content="Добавить группу"
+                    Click="GroupBtn_Click"
+                    Height="40"
+                    Width="150"
+                    Margin="10"/>
+            <Button Name="ActivityBtn"
+                    Content="Добавить активность"
+                    Click="ActivityBtn_Click"
+                    Height="40"
+                    Width="150"
+                    Margin="10"/>
+            <Button Name="AccAddBtn"
+                    Content="Создать отчёт"
+                    Click="AccAddBtn_Click"
+                    Height="40"
+                    Width="150"
+                    Margin="10"/>
+            <Button Name="AccBtn"
+                    Content="Отчёт по баллам"
+                    Click="AccBtn_Click"
+                    Height="40"
+                    Width="150"
+                    Margin="10"/>
+            <Button Name="NewTypeAccBtn"
+                    Content="Новый тип отчёта"
+                    Click="NewTypeAccBtn_Click"
+                    Height="40"
+                    Width="150"
+                    Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Page>
